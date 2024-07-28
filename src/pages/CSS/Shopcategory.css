@@ -1,0 +1,65 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.shopcategory-sort {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.dropdown-menu div {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+    background: #f0f0f0;
+}
+
+.shopcategory-indexsort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 170px; /* Changed margin to horizontal only */
+}
+
+.shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-indexsort p span {
+    font-weight: 600;
+}
+
+.shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Changed grid-template-columns value */
+    gap: 80px; /* Changed row-gap to gap */
+}
+
+.shopcategory-loadmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 35px; /* Corrected border-radius value */
+    border: 1px solid #220202; /* Added missing solid value */
+    color: #575555;
+    font-size: 18px;
+    font-weight: 500;
+}

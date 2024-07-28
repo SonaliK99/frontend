@@ -1,0 +1,65 @@
+.OrderDetails {
+    width: 100%;
+    height: 150vh;
+    background: #fce3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.OrderDetails-container {
+    width: 400px;
+    padding: 40px 60px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.OrderDetails-container h2 {
+    margin: 0 0 20px; /* Adjusted margin for proper alignment */
+    color: #df1d1d;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.OrderDetails-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.OrderDetails-fields input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.OrderDetails-fields input {
+    width: 100%; /* Set width to 100% */
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center; /* Align text in the center */
+}
+
+.OrderDetails-container button {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #df1d1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+}
